@@ -7,8 +7,8 @@
 </h2>
 
 <p align="center">
-<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/v/stable" /></a> <a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/license" /></a> 
-<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/downloads" /></a> 
+<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/v/stable" /></a> <a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/license" /></a>
+<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/downloads" /></a>
 </p>
 <br/><br/>
 
@@ -44,7 +44,7 @@ The package will automatically register itself.
 Publish configuration file and public assets:
 
 ``` bash
-php artisan vendor:publish --provider="qoraiche\mailEclipse\mailEclipseServiceProvider"
+php artisan vendor:publish --provider="angusm73\mailEclipse\mailEclipseServiceProvider"
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ __Contributions are welcome__
 
 ## Donate :heart:
 
-If you benefit from and/or like using MailEclipse then please help drive the future development of the project by 
+If you benefit from and/or like using MailEclipse then please help drive the future development of the project by
 
 * [Donating today](https://www.paypal.me/streamaps)!.
 * Star the project :star:.

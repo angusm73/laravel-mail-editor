@@ -1,6 +1,6 @@
 <?php
 
-namespace qoraiche\mailEclipse;
+namespace angusm73\mailEclipse;
 
 use ErrorException;
 use Illuminate\Container\Container;

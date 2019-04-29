@@ -1,15 +1,15 @@
 <?php
 
-namespace qoraiche\mailEclipse\Http\Controllers;
+namespace angusm73\mailEclipse\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
-use qoraiche\mailEclipse\mailEclipse;
+use angusm73\mailEclipse\mailEclipse;
 
 class MailablesController extends Controller
 {
-	
+
 	public function __construct()
 	    {
 	  abort_unless(
@@ -22,7 +22,7 @@ class MailablesController extends Controller
 	{
 		return redirect()->route('mailableList');
 	}
-	
+
 
 	public function index()
 	{
@@ -118,7 +118,7 @@ class MailablesController extends Controller
 
 		if ( !is_null(mailEclipse::handleMailableViewDataArgs($resource['namespace'])) ){
 			// $instance = new $resource['namespace'];
-			// 
+			//
 			$instance = mailEclipse::handleMailableViewDataArgs($resource['namespace']);
 
 		} else {

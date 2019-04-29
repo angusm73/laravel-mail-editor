@@ -1,5 +1,5 @@
 {
-    "name": "qoraiche/laravel-mail-editor",
+    "name": "angusm73/laravel-mail-editor",
     "description": "Laravel Mailable Editor",
     "license": "MIT",
     "authors": [
@@ -7,9 +7,14 @@
             "name": "yassine qoraiche",
             "email": "qoraicheofficiel@hotmail.com",
             "homepage": "https://github.com/qoraiche"
+        },
+        {
+            "name": "Angus Moore",
+            "email": "hi@angus.digital",
+            "homepage": "https://gitlab.com/angusm73"
         }
     ],
-    "homepage": "https://github.com/Qoraiche/laravel-mail-editor",
+    "homepage": "https://github.com/angusm73/laravel-mail-editor",
     "keywords": ["Laravel", "mailEclipse", "mailable-editor", "laravel-mail", "laravel-mailable", "mailable", "markdown"],
     "require": {
         "illuminate/support": "~5"
@@ -22,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "qoraiche\\mailEclipse\\": "src/"
+            "angusm73\\mailEclipse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "qoraiche\\mailEclipse\\Tests\\": "tests"
+            "angusm73\\mailEclipse\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "qoraiche\\mailEclipse\\mailEclipseServiceProvider"
+                "angusm73\\mailEclipse\\mailEclipseServiceProvider"
             ],
             "aliases": {
-                "mailEclipse": "qoraiche\\mailEclipse\\Facades\\mailEclipse"
+                "mailEclipse": "angusm73\\mailEclipse\\Facades\\mailEclipse"
             }
         }
     }

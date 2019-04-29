@@ -1,6 +1,6 @@
 <?php
 
-namespace qoraiche\mailEclipse;
+namespace angusm73\mailEclipse;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -25,7 +25,7 @@ class mailEclipseServiceProvider extends ServiceProvider
             $this->bootForConsole();
         }
     }
-    
+
     /**
      * Register the package routes.
      *
@@ -46,7 +46,7 @@ class mailEclipseServiceProvider extends ServiceProvider
     private function routeConfiguration()
     {
         return [
-            'namespace' => 'qoraiche\mailEclipse\Http\Controllers',
+            'namespace' => 'angusm73\mailEclipse\Http\Controllers',
             'prefix' => config('maileclipse.path'),
             'middleware' => 'maileclipse',
         ];
@@ -77,7 +77,7 @@ class mailEclipseServiceProvider extends ServiceProvider
     {
         return ['maileclipse'];
     }
-    
+
     /**
      * Console-specific booting.
      *

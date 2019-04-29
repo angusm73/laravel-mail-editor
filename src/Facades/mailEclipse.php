@@ -1,6 +1,6 @@
 <?php
 
-namespace qoraiche\mailEclipse\Facades;
+namespace angusm73\mailEclipse\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
