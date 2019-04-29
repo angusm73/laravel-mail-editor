@@ -669,7 +669,7 @@ class mailEclipse
 
                         if (isset($eloquentFactory[$arg['instance']])) {
 
-                            $filteredparams[] = factory($arg['instance'])->states($factoryStates)->create();
+                            $filteredparams[] = factory($arg['instance'])->states($factoryStates)->make();
 
                         } else {
                             $filteredparams[] = app($arg['instance']);
