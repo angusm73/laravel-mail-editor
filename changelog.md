@@ -16,8 +16,8 @@ All notable changes to `laravel-mail-editor` will be documented in this file.
 ## Version 1.0.2
 
 - remove unwanted routes
-- fix mailable with multiple constructor args type error ([issue](https://github.com/Qoraiche/laravel-mail-editor/issues/1)).
-- Replace route closure with controller based route ([issue](https://github.com/Qoraiche/laravel-mail-editor/issues/2)).
+- fix mailable with multiple constructor args type error ([issue](https://github.com/angusm73/laravel-mail-editor/issues/1)).
+- Replace route closure with controller based route ([issue](https://github.com/angusm73/laravel-mail-editor/issues/2)).
 - other minor fixes.
 
 ## Version 1.1.0

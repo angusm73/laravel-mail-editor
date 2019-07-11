@@ -7,8 +7,8 @@
 </h2>
 
 <p align="center">
-<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/v/stable" /></a> <a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/license" /></a>
-<a href="https://packagist.org/packages/qoraiche/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/qoraiche/laravel-mail-editor/downloads" /></a>
+<a href="https://packagist.org/packages/angusm73/laravel-mail-editor" alt="sponsors on Open Collective"><img src="https://poser.pugx.org/angusm73/laravel-mail-editor/v/stable" /></a> <a href="https://packagist.org/packages/angusm73/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/angusm73/laravel-mail-editor/license" /></a>
+<a href="https://packagist.org/packages/angusm73/laravel-mail-editor" alt="Sponsors on Open Collective"><img src="https://poser.pugx.org/angusm73/laravel-mail-editor/downloads" /></a>
 </p>
 <br/><br/>
 
@@ -36,7 +36,7 @@ Please note that this package is still under active development. We encourage ev
 Via Composer
 
 ``` bash
-$ composer require qoraiche/laravel-mail-editor
+$ composer require angusm73/laravel-mail-editor
 ```
 
 The package will automatically register itself.
